@@ -1,0 +1,77 @@
+* {margin: 0; padding: 0; }
+
+body{
+    margin: 50px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header .logo{
+    margin-bottom: 20px;
+
+}
+header .caption{
+    width: 100%;
+    padding: 5px 0px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+}
+header .google-engine{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header .google-engine input{
+    margin: 5px 0px;
+    width: 300px;
+}
+header .google-engine .search-buttons button{
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+    height: 79px;
+}
+nav > div{
+    height: 79px;
+}
+nav .popular-searches{
+    width: 35%;
+    background-color: #B9EDDD;
+}
+nav .google-links{
+    width: 25%;
+    background-color: #87CBB9;
+}
+nav .news-letter{
+    width: 40%;
+    background-color: #159895;
+}
+nav ul{
+    list-style-type: none;
+}
+nav .popular-searches ul{
+    padding-top: 10px;
+}
+nav .news-letter .news-buttons button{
+    margin-right: 10px;
+    padding: 2px 6px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
